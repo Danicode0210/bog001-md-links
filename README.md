@@ -1,9 +1,8 @@
 # Markdown Links
 
  ## Diagrama de flujo
-<p align="center">
-<img src="https://github.com/Danicode0210/bog001-md-links/blob/master/images/Md-Links.png" width="350"> 
-</p>
+<img src="https://github.com/Danicode0210/bog001-md-links/blob/master/images/Md-Links.png" max-width:200%;> 
+
 
 ## Índice
 
