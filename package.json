@@ -1,4 +1,47 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "@danicode0210/md-links",
+  "version": "1.0.8",
+  "description": "get link information in a markdown file",
+  "main": "./src/index.js",
+  "author": "Daniela Vargas",
+  "repository": {
+    "url": "git+https://github.com/Danicode0210/bog001-md-links.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bin": {
+    "md-links": "bin/global.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "javascript",
+    "markdown",
+    "node.js",
+    "promises",
+    "laboratoria",
+    "md-links"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.1",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "markdown-it": "^11.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Danicode0210/bog001-md-links/issues"
+  },
+  "homepage": "https://github.com/Danicode0210/bog001-md-links#readme",
+  "directories": {
+    "test": "test"
+  }
 }
