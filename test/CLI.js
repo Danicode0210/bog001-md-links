@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 const mdLinks = require('../src');
+/* const argv = require('yargs') */
 
-const { argv } = require('yargs').check((argv, options) => { //yargs lo usamos para configurar como se veran los links en la consola
+const  { argv }  = require('yargs')
+.check((argv,options) => { //yargs lo usamos para configurar como se veran los links en la consola
     const filePaths = argv._
     if (filePaths.length !== 1) { // si el usuario no puso ningun link, le arrojara un error y no ejecutara nada 
         throw new Error("You need to pass a path to the file to read")

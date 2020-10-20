@@ -49,8 +49,8 @@ const getLinks = route => {
 };
 getLinks('README.md')
     .then((data) => {
-        /*         console.log(data) */
-    })
+           /*     console.log(data)  */
+                })
 
 
 //Saber si es archivo o directorio
